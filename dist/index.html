@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cactus Ecc Seq</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./js/algorithm.js"></script>
+    <script src="./js/graph.js"></script>
+</head>
+<body>
+    <div id="graph" class="box">
+        <h1>Draw Graph Here!</h1>
+        <svg>
+            <g fill="white" stroke="black" stroke-width="5" onclick="addVertex()">
+            </g>
+        </svg>
+    </div>
+    <div id="adj" class="box">
+        <h1>Adjacency Info</h1>
+    </div>
+    <div id="ecc-seq" class="box">
+        <h1>Eccentricity Sequence</h1>
+    </div>
+    <script>
+        getEccSeq()
+    </script>
+</body>
+</html>
