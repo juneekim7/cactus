@@ -1,23 +1,34 @@
-[
-    {
-        "type": "cycle",
-        "vertices": [
-            2,
-            1,
-            0
+{
+    "balls": [
+        {
+            "type": "cycle",
+            "vertices": [
+                2,
+                1,
+                0
+            ],
+            "joints": [
+                2
+            ]
+        },
+        {
+            "type": "linear",
+            "vertices": [
+                3,
+                2
+            ],
+            "joints": [
+                2
+            ]
+        }
+    ],
+    "ballAdj": [
+        [],
+        [],
+        [
+            0,
+            1
         ],
-        "joints": [
-            2
-        ]
-    },
-    {
-        "type": "linear",
-        "vertices": [
-            3,
-            2
-        ],
-        "joints": [
-            2
-        ]
-    }
-]
+        []
+    ]
+}

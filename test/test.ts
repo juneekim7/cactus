@@ -10,7 +10,7 @@ for (let i = 0; i < numOfData; i++) {
         resolve(__dirname, `./input/${i}.json`),
         'utf-8'
     ))
-    console.log(adj)
+    console.log(`################## test${i} ##################`)
     const graph = new Graph(adj)
     fs.writeFileSync(
         // eslint-disable-next-line no-undef

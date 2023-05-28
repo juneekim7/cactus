@@ -1,57 +1,80 @@
-[
-    {
-        "type": "linear",
-        "vertices": [
+{
+    "balls": [
+        {
+            "type": "linear",
+            "vertices": [
+                3,
+                2
+            ],
+            "joints": [
+                2
+            ]
+        },
+        {
+            "type": "cycle",
+            "vertices": [
+                6,
+                8,
+                7
+            ],
+            "joints": [
+                6
+            ]
+        },
+        {
+            "type": "linear",
+            "vertices": [
+                6,
+                2
+            ],
+            "joints": [
+                6,
+                2
+            ]
+        },
+        {
+            "type": "cycle",
+            "vertices": [
+                1,
+                2,
+                0
+            ],
+            "joints": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "cycle",
+            "vertices": [
+                1,
+                5,
+                4
+            ],
+            "joints": [
+                1
+            ]
+        }
+    ],
+    "ballAdj": [
+        [],
+        [
             3,
-            2
-        ],
-        "joints": [
-            2
-        ]
-    },
-    {
-        "type": "cycle",
-        "vertices": [
-            6,
-            8,
-            7
-        ],
-        "joints": [
-            6
-        ]
-    },
-    {
-        "type": "linear",
-        "vertices": [
-            6,
-            2
-        ],
-        "joints": [
-            6,
-            2
-        ]
-    },
-    {
-        "type": "cycle",
-        "vertices": [
-            1,
-            2,
-            0
-        ],
-        "joints": [
-            1,
-            2
-        ]
-    },
-    {
-        "type": "cycle",
-        "vertices": [
-            1,
-            5,
             4
         ],
-        "joints": [
-            1
-        ]
-    }
-]
+        [
+            0,
+            2,
+            3
+        ],
+        [],
+        [],
+        [],
+        [
+            1,
+            2
+        ],
+        [],
+        []
+    ]
+}
